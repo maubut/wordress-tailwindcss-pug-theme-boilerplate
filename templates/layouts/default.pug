@@ -1,0 +1,15 @@
+doctype html
+html(lang=language).has-no-js
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(charset=charset)
+
+    !=wp_head
+
+  body
+    .smooth-scroll
+      main(data-barba="container" data-barba-namespace=namespace)
+        .site_wrapper
+          block main
+
+    !=wp_footer
