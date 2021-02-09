@@ -1,11 +1,11 @@
 <?php
-include 'vendor/autoload.php';
+include get_template_directory() . '/vendor/autoload.php';
 
 class Renderer {
   public $options;
 
   private function get_views_dir() {
-		return get_template_directory() . '/src/templates/';
+		return get_template_directory() . '/templates/';
   }
 
   private function get_output_buffer_contents( $function, $args = [] ) {
