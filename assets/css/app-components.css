@@ -1,0 +1,13 @@
+
+@import 'tailwindcss/components';
+
+* {
+  border: 12px solid blue;
+}
+
+h1 {
+  span {
+    @apply font-bold text-4xl;
+    border: 11px solid green;
+  }
+}

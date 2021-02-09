@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": false
+  },
+
+  // Webpack doesn’t need this, but by specifying where our source files are, our editor can provide better type validation & autocompletion.
+  "include": ["assets/js/**/*"]
+}
